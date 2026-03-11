@@ -7,14 +7,8 @@ export default function Footer() {
             © 2025 Shashank Creator Hub. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-gray-500 hover:text-primary transition">
-              Twitter
-            </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition">
-              GitHub
-            </a>
-            <a href="#" className="text-gray-500 hover:text-primary transition">
-              LinkedIn
+            <a href="https://www.instagram.com/official__saanu03/" className="text-gray-500 hover:text-primary transition">
+              Instagram
             </a>
           </div>
         </div>
