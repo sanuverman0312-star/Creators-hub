@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/prompt/_next/:path*",
+      "destination": "https://ai-prompt-library-snowy.vercel.app/_next/:path*"
+    },
+    {
       "source": "/prompt/:path*",
       "destination": "https://ai-prompt-library-snowy.vercel.app/:path*"
     },
@@ -9,12 +13,20 @@
       "destination": "https://ai-prompt-library-snowy.vercel.app"
     },
     {
+      "source": "/encoder/_next/:path*",
+      "destination": "https://image-decoder.netlify.app/_next/:path*"
+    },
+    {
       "source": "/encoder/:path*",
       "destination": "https://image-decoder.netlify.app/:path*"
     },
     {
       "source": "/encoder",
-      "destination": "https://image-decoder.netlify.app/"
+      "destination": "https://image-decoder.netlify.app"
+    },
+    {
+      "source": "/album/_next/:path*",
+      "destination": "https://photo-album.vercel.app/_next/:path*"
     },
     {
       "source": "/album/:path*",
@@ -25,6 +37,10 @@
       "destination": "https://photo-album.vercel.app"
     },
     {
+      "source": "/formatter/_next/:path*",
+      "destination": "https://code-formatter.vercel.app/_next/:path*"
+    },
+    {
       "source": "/formatter/:path*",
       "destination": "https://code-formatter.vercel.app/:path*"
     },
@@ -33,12 +49,20 @@
       "destination": "https://code-formatter.vercel.app"
     },
     {
+      "source": "/json/_next/:path*",
+      "destination": "https://json-validator.vercel.app/_next/:path*"
+    },
+    {
       "source": "/json/:path*",
       "destination": "https://json-validator.vercel.app/:path*"
     },
     {
       "source": "/json",
       "destination": "https://json-validator.vercel.app"
+    },
+    {
+      "source": "/colors/_next/:path*",
+      "destination": "https://color-picker.vercel.app/_next/:path*"
     },
     {
       "source": "/colors/:path*",
