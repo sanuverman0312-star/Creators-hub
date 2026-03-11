@@ -8,8 +8,17 @@
     "icon": "🤖",
     "category": "ai-tools"
   },
-  {
+    {
     "id": 2,
+    "name": "Shashank Vault",
+    "slug": "colors",
+    "url": "https://shashank-vault.vercel.app/",
+    "description": "Personal Drive for storage",
+    "icon": "🎨",
+    "category": "Personal-Tools"
+  },
+  {
+    "id": 3,
     "name": "Image Encoder",
     "slug": "encoder",
     "url": "https://image-decoder.netlify.app/",
@@ -18,39 +27,39 @@
     "category": "image-tools"
   },
   {
-    "id": 3,
-    "name": "Photo Album",
-    "slug": "album",
-    "url": "https://photo-album.vercel.app",
-    "description": "Create beautiful photo albums",
-    "icon": "📸",
-    "category": "image-tools"
+    "id": 4,
+    "name": "All Tools Hub",
+    "slug": "alltools",
+    "url": "https://all-tools-hub.netlify.app/",
+    "description": "A collection of various tools in one place",
+    "icon": "🛠️",
+    "category": "utility-tools"
   },
   {
-    "id": 4,
-    "name": "Code Formatter",
+    "id": 5,
+    "name": "Try To Code",
     "slug": "formatter",
-    "url": "https://code-formatter.vercel.app",
+    "url": "https://try-to-code.vercel.app/",
     "description": "Format your code beautifully",
     "icon": "💻",
     "category": "dev-tools"
   },
   {
-    "id": 5,
-    "name": "JSON Validator",
-    "slug": "json",
-    "url": "https://json-validator.vercel.app",
-    "description": "Validate and format JSON",
-    "icon": "📋",
+    "id": 6,
+    "name": "Try On Phone",
+    "slug": "phone",
+    "url": "https://try-on-phone.netlify.app/",
+    "description": "Edit your code on Phone",
+    "icon": "📱",
     "category": "dev-tools"
   },
   {
-    "id": 6,
-    "name": "Color Picker",
-    "slug": "colors",
-    "url": "https://color-picker.vercel.app",
-    "description": "Pick and convert colors",
-    "icon": "🎨",
-    "category": "design-tools"
-  }
+  "id": 7,
+  "name": "Smart Electrician",
+  "slug": "electrician",
+  "url": "http://smartelectrician.in/",
+  "description": "Smart learning and visualizing tool for electricians",
+  "icon": "🔌",
+  "category": "learning-tools"
+}
 ]

@@ -14,10 +14,11 @@ interface ToolCardProps {
 const toolUrls: { [key: string]: string } = {
   prompt: "https://ai-prompt-library-snowy.vercel.app",
   encoder: "https://image-decoder.netlify.app",
-  album: "https://photo-album.vercel.app",
-  formatter: "https://code-formatter.vercel.app",
-  json: "https://json-validator.vercel.app",
-  colors: "https://color-picker.vercel.app",
+  alltools: "https://all-tools-hub.netlify.app",
+  formatter: "https://try-to-code.vercel.app",
+  phone: "https://try-on-phone.netlify.app",
+  colors: "https://shashank-vault.vercel.app",
+  electrician: "http://smartelectrician.in/",
 };
 
 export default function ToolCard({ name, description, icon, slug, category }: ToolCardProps) {
