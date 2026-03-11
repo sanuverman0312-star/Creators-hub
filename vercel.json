@@ -1,20 +1,3 @@
 {
-  "rewrites": [
-    {
-      "source": "/prompt/:path*",
-      "destination": "https://ai-prompt-library-snowy.vercel.app/prompt/:path*"
-    },
-    {
-      "source": "/prompt",
-      "destination": "https://ai-prompt-library-snowy.vercel.app/prompt"
-    },
-    {
-      "source": "/encoder/:path*",
-      "destination": "https://image-decoder.netlify.app/:path*"
-    },
-    {
-      "source": "/encoder",
-      "destination": "https://image-decoder.netlify.app"
-    }
-  ]
+  "rewrites": []
 }

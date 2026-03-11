@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 interface ToolCardProps {
   id: number;
@@ -12,7 +11,20 @@ interface ToolCardProps {
   category: string;
 }
 
+const toolUrls: { [key: string]: string } = {
+  prompt: "https://ai-prompt-library-snowy.vercel.app",
+  encoder: "https://image-decoder.netlify.app",
+  album: "https://photo-album.vercel.app",
+  formatter: "https://code-formatter.vercel.app",
+  json: "https://json-validator.vercel.app",
+  colors: "https://color-picker.vercel.app",
+};
+
 export default function ToolCard({ name, description, icon, slug, category }: ToolCardProps) {
+  const handleClick = () => {
+    window.open(toolUrls[slug], "_blank");
+  };
+
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
@@ -33,12 +45,12 @@ export default function ToolCard({ name, description, icon, slug, category }: To
         {description}
       </p>
       
-      <Link
-        href={`/${slug}`}
-        className="inline-block bg-primary text-white px-2 sm:px-3 md:px-4 lg:px-6 py-1.5 sm:py-2 rounded-md sm:rounded-lg hover:bg-accent transition font-medium text-[10px] sm:text-xs md:text-sm lg:text-base text-center w-full"
+      <button
+        onClick={handleClick}
+        className="bg-primary text-white px-2 sm:px-3 md:px-4 lg:px-6 py-1.5 sm:py-2 rounded-md sm:rounded-lg hover:bg-accent transition font-medium text-[10px] sm:text-xs md:text-sm lg:text-base text-center w-full"
       >
         Open Tool
-      </Link>
+      </button>
     </motion.div>
   );
 }
