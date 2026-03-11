@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Image Encoder",
     "slug": "encoder",
-    "url": "https://image-encoder.vercel.app",
+    "url": "https://image-decoder.netlify.app/",
     "description": "Encode/decode images easily",
     "icon": "🖼️",
     "category": "image-tools"

@@ -1,24 +1,48 @@
 {
   "rewrites": [
     {
+      "source": "/prompt/:path*",
+      "destination": "https://ai-prompt-library-snowy.vercel.app/:path*"
+    },
+    {
       "source": "/prompt",
-      "destination": "https://ai-prompt-library-snowy.vercel.app/"
+      "destination": "https://ai-prompt-library-snowy.vercel.app"
+    },
+    {
+      "source": "/encoder/:path*",
+      "destination": "https://image-decoder.netlify.app/:path*"
     },
     {
       "source": "/encoder",
-      "destination": "https://image-encoder.vercel.app"
+      "destination": "https://image-decoder.netlify.app/"
+    },
+    {
+      "source": "/album/:path*",
+      "destination": "https://photo-album.vercel.app/:path*"
     },
     {
       "source": "/album",
       "destination": "https://photo-album.vercel.app"
     },
     {
+      "source": "/formatter/:path*",
+      "destination": "https://code-formatter.vercel.app/:path*"
+    },
+    {
       "source": "/formatter",
       "destination": "https://code-formatter.vercel.app"
     },
     {
+      "source": "/json/:path*",
+      "destination": "https://json-validator.vercel.app/:path*"
+    },
+    {
       "source": "/json",
       "destination": "https://json-validator.vercel.app"
+    },
+    {
+      "source": "/colors/:path*",
+      "destination": "https://color-picker.vercel.app/:path*"
     },
     {
       "source": "/colors",
