@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/prompt",
+      "destination": "https://ai-prompt-library-snowy.vercel.app/"
+    },
+    {
+      "source": "/encoder",
+      "destination": "https://image-encoder.vercel.app"
+    },
+    {
+      "source": "/album",
+      "destination": "https://photo-album.vercel.app"
+    },
+    {
+      "source": "/formatter",
+      "destination": "https://code-formatter.vercel.app"
+    },
+    {
+      "source": "/json",
+      "destination": "https://json-validator.vercel.app"
+    },
+    {
+      "source": "/colors",
+      "destination": "https://color-picker.vercel.app"
+    }
+  ]
+}

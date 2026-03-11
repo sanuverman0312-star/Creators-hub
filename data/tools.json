@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "AI Prompt Library",
+    "slug": "prompt",
+    "url": "https://ai-prompt-library-snowy.vercel.app/",
+    "description": "Generate AI prompts instantly",
+    "icon": "🤖",
+    "category": "ai-tools"
+  },
+  {
+    "id": 2,
+    "name": "Image Encoder",
+    "slug": "encoder",
+    "url": "https://image-encoder.vercel.app",
+    "description": "Encode/decode images easily",
+    "icon": "🖼️",
+    "category": "image-tools"
+  },
+  {
+    "id": 3,
+    "name": "Photo Album",
+    "slug": "album",
+    "url": "https://photo-album.vercel.app",
+    "description": "Create beautiful photo albums",
+    "icon": "📸",
+    "category": "image-tools"
+  },
+  {
+    "id": 4,
+    "name": "Code Formatter",
+    "slug": "formatter",
+    "url": "https://code-formatter.vercel.app",
+    "description": "Format your code beautifully",
+    "icon": "💻",
+    "category": "dev-tools"
+  },
+  {
+    "id": 5,
+    "name": "JSON Validator",
+    "slug": "json",
+    "url": "https://json-validator.vercel.app",
+    "description": "Validate and format JSON",
+    "icon": "📋",
+    "category": "dev-tools"
+  },
+  {
+    "id": 6,
+    "name": "Color Picker",
+    "slug": "colors",
+    "url": "https://color-picker.vercel.app",
+    "description": "Pick and convert colors",
+    "icon": "🎨",
+    "category": "design-tools"
+  }
+]
