@@ -8,8 +8,17 @@
     "icon": "🤖",
     "category": "ai-tools"
   },
-    {
+  {
     "id": 2,
+    "name": "Saniya Tailor",
+    "slug": "tailor",
+    "url": "https://saniya-talior.vercel.app/",
+    "description": "Personal Drive for storage",
+    "icon": "🪡",
+    "category": "Personal-Business-Web"
+  },
+    {
+    "id": 3,
     "name": "Shashank Vault",
     "slug": "colors",
     "url": "https://shashank-vault.vercel.app/",
@@ -18,7 +27,7 @@
     "category": "Personal-Tools"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Image Encoder",
     "slug": "encoder",
     "url": "https://image-decoder.netlify.app/",
@@ -27,7 +36,7 @@
     "category": "image-tools"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "All Tools Hub",
     "slug": "alltools",
     "url": "https://all-tools-hub.netlify.app/",
@@ -36,7 +45,7 @@
     "category": "utility-tools"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Try To Code",
     "slug": "formatter",
     "url": "https://try-to-code.vercel.app/",
@@ -45,7 +54,7 @@
     "category": "dev-tools"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Try On Phone",
     "slug": "phone",
     "url": "https://try-on-phone.netlify.app/",
@@ -54,7 +63,7 @@
     "category": "dev-tools"
   },
   {
-  "id": 7,
+  "id": 8,
   "name": "Smart Electrician",
   "slug": "electrician",
   "url": "http://smartelectrician.in/",

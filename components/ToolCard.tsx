@@ -13,6 +13,7 @@ interface ToolCardProps {
 
 const toolUrls: { [key: string]: string } = {
   prompt: "https://ai-prompt-library-snowy.vercel.app",
+  tailor:  "https://saniya-talior.vercel.app",
   encoder: "https://image-decoder.netlify.app",
   alltools: "https://all-tools-hub.netlify.app",
   formatter: "https://try-to-code.vercel.app",
