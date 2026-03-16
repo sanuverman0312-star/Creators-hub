@@ -21,6 +21,7 @@ const toolUrls: { [key: string]: string } = {
   colors: "https://shashank-vault.vercel.app",
   electrician: "http://smartelectrician.in/",
   msoffice: "https://ms-office-nine.vercel.app",
+  sarkari: "https://sarkari-jobs-portal.vercel.app",
 };
 
 export default function ToolCard({ name, description, icon, slug, category }: ToolCardProps) {

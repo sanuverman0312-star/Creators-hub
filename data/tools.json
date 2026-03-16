@@ -79,5 +79,14 @@
   "description": "All Excel, Word, PowerPoint formulas in one place",
   "icon": "📊",
   "category": "learning-tools"
+},
+ {
+  "id": 10,
+  "name": "Sarkari portal",
+  "slug": "sarkari",
+  "url": "https://sarkari-jobs-portal.vercel.app/",
+  "description": "Sarkari jobs portal for government job seekers",
+  "icon": "💼",
+  "category": "learning-tools"
 }
 ]
