@@ -20,6 +20,7 @@ const toolUrls: { [key: string]: string } = {
   phone: "https://try-on-phone.netlify.app",
   colors: "https://shashank-vault.vercel.app",
   electrician: "http://smartelectrician.in/",
+  msoffice: "https://ms-office-nine.vercel.app",
 };
 
 export default function ToolCard({ name, description, icon, slug, category }: ToolCardProps) {

@@ -70,5 +70,14 @@
   "description": "Smart learning and visualizing tool for electricians",
   "icon": "🔌",
   "category": "learning-tools"
+},
+ {
+  "id": 9,
+  "name": "MS Office formulas",
+  "slug": "msoffice",
+  "url": "https://ms-office-nine.vercel.app/",
+  "description": "All Excel, Word, PowerPoint formulas in one place",
+  "icon": "📊",
+  "category": "learning-tools"
 }
 ]
