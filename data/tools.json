@@ -88,5 +88,14 @@
   "description": "Sarkari jobs portal for government job seekers",
   "icon": "💼",
   "category": "learning-tools"
+},
+{
+  "id": 11,
+  "name": "UniAuth 12",
+  "slug": "myapp",
+  "url": "https://github.com/sanuverman0312-star/Released-apk/releases/download/UniAuth12-1.0.1%2B2/UniAuth12-1.0.1+2.apk",
+  "description": "Download and explore my official Android application",
+  "icon": "📲",
+  "category": "mobile-app"
 }
 ]

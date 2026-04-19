@@ -22,6 +22,7 @@ const toolUrls: { [key: string]: string } = {
   electrician: "http://smartelectrician.in/",
   msoffice: "https://ms-office-nine.vercel.app",
   sarkari: "https://sarkari-jobs-portal.vercel.app",
+  myapp: "https://github.com/sanuverman0312-star/Released-apk/releases/download/UniAuth12-1.0.1%2B2/UniAuth12-1.0.1+2.apk",
 };
 
 export default function ToolCard({ name, description, icon, slug, category }: ToolCardProps) {
