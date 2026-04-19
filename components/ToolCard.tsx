@@ -30,6 +30,8 @@ export default function ToolCard({ name, description, icon, slug, category }: To
     window.open(toolUrls[slug], "_blank");
   };
 
+  const isApp = slug === "myapp";
+
   return (
     <motion.div
       whileHover={{ scale: 1.03 }}
@@ -52,9 +54,13 @@ export default function ToolCard({ name, description, icon, slug, category }: To
       
       <button
         onClick={handleClick}
-        className="bg-primary text-white px-2 sm:px-3 md:px-4 lg:px-6 py-1.5 sm:py-2 rounded-md sm:rounded-lg hover:bg-accent transition font-medium text-[10px] sm:text-xs md:text-sm lg:text-base text-center w-full"
+        className={`px-2 sm:px-3 md:px-4 lg:px-6 py-1.5 sm:py-2 rounded-md sm:rounded-lg transition font-medium text-[10px] sm:text-xs md:text-sm lg:text-base text-center w-full ${
+          isApp
+            ? "bg-green-600 text-white hover:bg-green-700"
+            : "bg-primary text-white hover:bg-accent"
+        }`}
       >
-        Open Tool
+        {isApp ? "Download APK" : "Open Tool"}
       </button>
     </motion.div>
   );
